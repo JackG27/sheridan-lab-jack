@@ -1,0 +1,12 @@
+# ContainerLab Topology - sheridan-lab-jack
+# Uses Nokia SR Linux (free, auto-downloaded by containerlab)
+name: sheridan-lab-jack
+
+topology:
+  nodes:
+    srl:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:latest
+      startup-config: startup-config.json
+
+  links: []

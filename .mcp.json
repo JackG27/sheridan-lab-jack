@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "sheridan-lab-jack": {
+      "command": "python3",
+      "args": ["server.py"],
+      "cwd": "/home/jack/sheridan-lab-jack",
+      "env": {
+        "DEVICE_HOST": "clab-sheridan-lab-jack-srl",
+        "DEVICE_USERNAME": "admin",
+        "DEVICE_PASSWORD": "NokiaSrl1!"
+      }
+    }
+  }
+}

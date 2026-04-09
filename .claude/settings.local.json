@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "sheridan-lab-jack"
+  ],
+  "enableAllProjectMcpServers": true
+}
